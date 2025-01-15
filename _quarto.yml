@@ -1,13 +1,25 @@
 project:
   type: book
+  output-dir: _book
 
 book:
-  title: "toolkit-notes"
-  author: "Norah Jones"
+  title: "Toolkit Notes"
+  author: "Rony Rodriguez"
+  reader-mode: true
   date: "1/14/2025"
   chapters:
     - index.qmd
     - intro.qmd
+    
+    - part: "Part I: Tools"
+      chapters:
+        - tools.qmd
+    - part: "Part II: Stata"
+      chapters:
+        - stata.qmd
+    - part: "Part III: R"
+      chapters:
+        - r.qmd
     - summary.qmd
     - references.qmd
 
